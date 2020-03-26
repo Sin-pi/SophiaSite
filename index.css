@@ -1,0 +1,186 @@
+body{
+	background-image: url("Art/background.jpg");
+}
+
+#Header {
+	color: white;
+}
+.head {
+	display:grid;
+	grid-template-columns: 30% 40% 30%;
+}
+
+.head > div{
+	color: white;
+}
+
+#NavBar > ul {
+	list-style-type: none;
+	margin:3px;
+	padding:0;
+	text-align:left;
+}
+#NavBar > ul > li {
+	display: inline;
+	font-size: 3em;
+	margin:2px;
+}
+
+#NavBar > ul > li:hover {
+	text-decoration:underline;
+	background-color: #001a33;
+}	
+
+#Banner {
+	font-size: 5em;
+	margin:20px;
+	padding:5px;
+	text-align:center;
+}
+
+#Banner > a:visited {
+	color:white;
+}
+
+#Banner > a:link {
+	text-decoration: none;
+}
+
+#Banner > a:hover {
+	border:1px;
+	border-color:black;
+	border-style: dashed;
+}
+
+#SocLink > ul{
+	list-style-type: none;
+	font-size: 22px;
+	margin:1px;
+	text-align: right;
+}
+
+#SocLink > ul > li{
+	display:inline;
+	margin:2px;
+}
+#SocLink > ul > li > a > img {
+	height: 50px;
+	width: 50px;
+}
+
+#ArtGal{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 25% 15% 100px auto;
+	color: white;
+	font-size:60px;
+	margin-top:15px;
+	height:1100px;
+	background-image: url("backBase.png");
+	background-repeat: no-repeat;
+	background-position: center fixed;
+	background-size: cover;
+	background-position-y: 77%;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+#illustration{
+	grid-row-start: 1;
+	grid-column-start: 2;
+	text-align:left;
+}
+
+#illustration:hover{
+	text-decoration: underline;
+}
+
+@keyframes ilKey  {
+	from {background-image: url("backBase.png");}
+	to{background-image: url("backOne.png");}
+}
+
+#Animation{
+	grid-row-start:1;
+	grid-column-start: 4;
+	text-align: left;
+}
+
+#Animation:hover{
+	text-decoration: underline;
+}
+
+@keyframes AnKey  {
+	from {background-image: url("backBase.png")}
+	to{background-image: url("backTwo.png")}
+}
+
+#Graphic{
+	grid-row-start: 2;
+	text-align: center;
+	grid-column: 1/ span 5;
+}
+
+#Graphic:hover{
+	text-decoration: underline;
+}
+
+.Tailer{
+	display: grid;
+	grid-template-columns: 30% 40% 30%;
+	height: 500px;
+	background-color:white;
+	border-radius: 15px;
+	margin-top:20px;
+}
+
+#email{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+#email > b{
+	font-size: 2.5em;
+}
+
+#email >a{
+	font-size: 1.5em;
+	padding:15px;
+}
+
+#email > a:link{
+	color:black;
+}
+
+#quote {
+	font-size: 1.5em;
+	text-decoration:bold;
+	padding:15px;
+	align-self: center;
+}
+
+#tailSoc {
+	align-self: center;
+	text-align: center;
+}
+
+#tailSoc > ul{
+	list-style-type: none;
+	padding:5px;
+	margin:5px;
+	font-size: 1.5em;
+}
+
+#tailSoc > ul > li > a:link{
+	color: black;
+}
+
+#tailSoc > ul > li > a:hover{
+	color: grey;
+	background-color: grey;
+}
+
+#tailSoc > ul > li > a:visited{
+	color:black;
+}
