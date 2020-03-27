@@ -85,6 +85,16 @@ body{
 	border-radius: 15px;
 }
 
+@keyframes offKey {
+		0% {
+		opacity: 0;
+		background-image: url("backBase.png");
+	}
+	100%{
+		opacity: 100;
+	}
+}
+
 #illustration{
 	grid-row-start: 1;
 	grid-column-start: 2;
@@ -96,8 +106,13 @@ body{
 }
 
 @keyframes ilKey  {
-	from {background-image: url("backBase.png");}
-	to{background-image: url("backOne.png");}
+	0% {
+		opacity: 0;
+		background-image: url("backOne.png");
+	}
+	100%{
+		opacity: 100;
+	}
 }
 
 #Animation{
@@ -110,9 +125,14 @@ body{
 	text-decoration: underline;
 }
 
-@keyframes AnKey  {
-	from {background-image: url("backBase.png")}
-	to{background-image: url("backTwo.png")}
+@keyframes anKey  {
+	0% {
+		opacity: 0;
+		background-image: url("backTwo.png");
+	}
+	100%{
+		opacity: 100;
+	}
 }
 
 #Graphic{
@@ -123,6 +143,16 @@ body{
 
 #Graphic:hover{
 	text-decoration: underline;
+}
+
+@keyframes gdKey  {
+	0% {
+		opacity: 0;
+		background-image: url("backThree.png");
+	}
+	100%{
+		opacity: 100;
+	}
 }
 
 .Tailer{
